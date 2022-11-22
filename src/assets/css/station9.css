@@ -1,0 +1,53 @@
+.card__img-top {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 1px;
+  background-color: #fff;
+}
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+.card {
+  padding: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #ffffff;
+}
+.body {
+  background-color: #c4c4c4;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .card__title {
+    font-size: min(2.3vw, 30px);
+  }
+  .card__description {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card__title {
+    font-size: min(2.3vw, 30px);
+  }
+  .card__description {
+    font-size: min(2.3vw, 30px);
+  }
+}
+@media screen and (min-width: 1200px) {
+}
